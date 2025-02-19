@@ -1,0 +1,15 @@
+Console.WriteLine("Введите последовательно радиус круга и сторону квадрата");
+
+const float p = 3.14F;
+
+double r = Convert.ToDouble(Console.ReadLine());
+double a = Convert.ToDouble(Console.ReadLine());
+
+double Scirkul = p * (r * r);
+double Scvadrat = a * a;
+
+if (Scirkul < Scvadrat)
+    Console.WriteLine("площадь квадрата больше круга");
+else if (Scirkul > Scvadrat)
+    Console.WriteLine("площадь круга больше площади квадрата");
+else Console.WriteLine("равны");

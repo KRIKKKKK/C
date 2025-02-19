@@ -1,0 +1,9 @@
+Console.WriteLine("Введите последовательно скорость v1 and v2 and путь S");
+
+double v1 = Convert.ToDouble(Console.ReadLine());
+double v2 = Convert.ToDouble(Console.ReadLine());
+double S = Convert.ToDouble(Console.ReadLine());
+ 
+double T = S/(v1 + v2);
+
+Console.WriteLine($"время в часах необходимое что бы проехать расстояние {S} = {T}");
